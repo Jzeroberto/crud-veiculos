@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Acesso Negado</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+</head>
+<body class="container mt-5">
+<div class="alert alert-danger text-center">
+    <h2 th:text="${erro} ?: 'Acesso negado'">Login incorreto</h2>
+    <a href="/veiculos" class="btn btn-primary mt-3">Voltar para a lista de veículos</a>
+</div>
+</body>
+</html>

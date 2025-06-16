@@ -1,0 +1,98 @@
+
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.card {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  color: #c9d1d9;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+}
+
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+
+.card-footer {
+  background-color: transparent;
+  border-top: 1px solid #30363d;
+}
+
+
+.card-title {
+  color: #58a6ff;
+}
+
+
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #238636;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #2ea043;
+}
+
+.btn-danger {
+  background-color: #da3633;
+  color: #ffffff;
+}
+
+.btn-danger:hover {
+  background-color: #f85149;
+}
+
+.btn-warning {
+  background-color: #f0b429;
+  color: #161b22;
+}
+
+.btn-warning:hover {
+  background-color: #f1c40f;
+}
+
+.btn-secondary {
+  background-color: #30363d;
+  color: #c9d1d9;
+}
+
+.btn-secondary:hover {
+  background-color: #484f58;
+}
+
+
+input[type="text"] {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+input[type="text"]::placeholder {
+  color: #8b949e;
+}
